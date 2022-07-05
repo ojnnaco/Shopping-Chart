@@ -1,0 +1,161 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  padding: 5px 0;
+  text-align: center;
+  font-style: italic;
+}
+.item-container {
+  width: 1150px;
+  margin: 0;
+  /* border: 1px solid yellow; */
+}
+.items {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 27px;
+}
+.items:hover {
+  box-shadow: 2px 2px 4px chocolate;
+  transform: scale(1.01);
+  border: 1px solid tomato;
+}
+#product {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.item-details {
+  padding: 5px;
+  width: 50%;
+  position: relative;
+}
+.item-name,
+.item-price,
+.item-qty {
+  margin-bottom: 10px;
+}
+
+#shoe:hover {
+  transform: scale(1.04);
+}
+.addremovebutton {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.addbutton img {
+  width: 22px;
+}
+
+.removebutton img {
+  width: 22px;
+}
+
+.addremovebutton {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 1px;
+}
+.cart {
+  margin: 2px;
+  padding: 2px;
+}
+.addbutton {
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.addbutton:hover {
+  background-color: darkslateblue;
+  color: blue;
+  font-weight: 600;
+  border: 1px solid peru;
+}
+.removebutton {
+  position: relative;
+  bottom: 19px;
+  right: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.removebutton:hover {
+  background-color: darkslateblue;
+  color: blue;
+  font-weight: 600;
+  border: 1px solid peru;
+}
+.likebutton {
+  position: relative;
+  bottom: 18px;
+  right: 20px;
+  cursor: pointer;
+}
+.plus-button,
+/* .input-value, */
+.minus-button {
+  width: 40px;
+  padding: 1px;
+  text-align: center;
+}
+.cart-total {
+  padding: 10px;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  max-width: 1200px;
+}
+.cart-total p {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.cart-total a {
+  display: block;
+  text-align: center;
+  height: 50px;
+  line-height: 45px;
+  background-color: tomato;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+.cart-total a:hover {
+  background-color: brown;
+}
+.heart-on {
+  color: red;
+}
+.remove-div {
+  display: none;
+}
+.input-value {
+  margin: 0;
+  padding: 0;
+}
+.item-qty {
+  display: flex;
+}
+.input-value {
+  margin: 0 10px;
+}
+.test {
+  display: flex;
+}
+.item-price {
+  margin-right: 50px;
+}
+
+.tprice {
+  display: flex;
+  justify-content: center;
+}
